@@ -28,4 +28,4 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: deploying using surge
-      run: surge ./ https://aptech-dha-test-website.surge.sh/ --token ${{ secrets.TOKEN }}
+      run: surge ./ https://calculating-farmer.surge.sh/ --token ${{ secrets.TOKEN }}
